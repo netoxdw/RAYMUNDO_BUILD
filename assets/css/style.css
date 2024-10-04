@@ -1,0 +1,255 @@
+.navbar{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-brand{
+  margin-left: 90px;
+}
+
+/* Estilos para la sección Hero */
+.hero {
+  background-color: #f1f2f5; /* Fondo claro */
+  padding: 100px 0; /* Espacio superior e inferior */
+}
+
+.hero .display-4 {
+  font-weight: bold; /* Fuente negrita */
+  color: #001357; /* Color de texto */
+}
+
+.hero .lead {
+  color: #666; /* Color de texto */
+  font-weight: 600;
+}
+
+.hero .btn-primary {
+  background-color: #007bff; /* Fondo azul */
+  border-color: #007bff; /* Borde azul */
+}
+
+.img-fluid{
+  width: 100%;
+  border-radius: 17px;
+}
+
+.btn-cta{
+  background-color: #fe4f01;
+  color: #f2f3f3;
+}
+.btn-cta:hover{
+  background-color: #ff690b;
+}
+
+
+/* Estilos para la sección Main */
+.main {
+  background-color: #fff; /* Fondo blanco */
+  padding: 100px 0; /* Espacio superior e inferior */
+}
+
+.main h2 {
+  font-weight: bold; /* Fuente negrita */
+  color: #333; /* Color de texto */
+}
+
+.main .lead {
+  color: #666; /* Color de texto */
+}
+
+.main .list-unstyled {
+  margin-bottom: 30px; /* Espacio entre lista y botón */
+}
+
+.main .list-unstyled li {
+  margin-bottom: 10px; /* Espacio entre items de lista */
+}
+
+.main .list-unstyled i {
+  color: #ff690b; /* Color del ícono de verificación */
+  margin-right: 10px; /* Espacio entre ícono y texto */
+}
+
+
+
+
+
+
+/* Estilos para la sección de Servicios */
+.servicios {
+  background-color: #f1f2f5; /* Fondo claro */
+  padding: 100px 0; /* Espacio superior e inferior */
+}
+
+.servicios h2 {
+  font-weight: bold; /* Fuente negrita */
+  color: #333; /* Color de texto */
+}
+
+.servicios .lead {
+  color: #666; /* Color de texto */
+}
+
+.servicios .card {
+  margin-bottom: 30px; /* Espacio entre tarjetas */
+  min-height: 350px;
+}
+
+.servicios .card-img-top {
+  width: 100%; /* Ancho de la imagen */
+  height: 150px; /* Alto de la imagen */
+  object-fit: cover; /* Adaptar imagen */
+}
+
+.servicios .card-title {
+  font-weight: bold; /* Fuente negrita */
+  color: #333; /* Color de texto */
+}
+
+.servicios .card-text {
+  color: #666; /* Color de texto */
+}
+
+
+/* Estilos para la sección de Testimonios */
+.testimonios {
+  background-color: #ffffff; /* Fondo claro */
+  padding: 100px 0; /* Espacio superior e inferior */
+}
+
+.testimonios h3 {
+  font-weight: bold; /* Fuente negrita */
+  color: #333; /* Color de texto */
+}
+
+.testimonios .lead {
+  color: #666; /* Color de texto */
+}
+
+.tarjeta-testimonio {
+  background-color: #fff; /* Fondo blanco */
+  padding: 20px; /* Espacio interior */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.tarjeta-testimonio .opinion {
+  font-style: italic; /* Fuente cursiva */
+  color: #666; /* Color de texto */
+}
+
+.tarjeta-testimonio .nombre {
+  font-weight: bold; /* Fuente negrita */
+  color: #333; /* Color de texto */
+}
+
+.tarjeta-testimonio .estrellitas {
+  color: #ffd700; /* Color amarillo */
+}
+
+.tarjeta-testimonio .estrellitas i {
+  margin-right: 5px; /* Espacio entre estrellas */
+}
+
+/* Estilos para la sección de Galería de Proyectos */
+.galeria-proyectos {
+  background-color: #f7f7f7; /* Fondo claro */
+  padding: 100px 0; /* Espacio superior e inferior */
+}
+
+.galeria-proyectos h3 {
+  font-weight: bold; /* Fuente negrita */
+  color: #333; /* Color de texto */
+}
+
+.galeria-proyectos .lead {
+  color: #666; /* Color de texto */
+}
+
+.proyecto {
+  margin-bottom: 30px; /* Espacio entre proyectos */
+}
+
+.proyecto img {
+  width: 100%; /* Ancho de la imagen */
+  height: 150px; /* Alto de la imagen */
+  object-fit: cover; /* Adaptar imagen */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.proyecto h5 {
+  font-weight: bold; /* Fuente negrita */
+  color: #333; /* Color de texto */
+}
+
+.proyecto p {
+  color: #666; /* Color de texto */
+}
+
+/* Estilos para la sección de Contacto */
+.contacto {
+  background-color: #f7f7f7; /* Fondo claro */
+  padding: 100px 0; /* Espacio superior e inferior */
+}
+
+.contacto h5 {
+  font-weight: bold; /* Fuente negrita */
+  color: #333; /* Color de texto */
+}
+
+.contacto p {
+  color: #666; /* Color de texto */
+}
+
+.botones-contacto {
+  margin-bottom: 30px; /* Espacio entre botones y mapa */
+}
+
+.botones-contacto .btn {
+  margin-right: 10px; /* Espacio entre botones */
+}
+
+.mapa {
+  width: 100%; /* Ancho del mapa */
+  height: 300px; /* Alto del mapa */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #333; /* Fondo oscuro */
+  color: #fff; /* Color de texto */
+  padding: 50px 0; /* Espacio superior e inferior */
+}
+
+.footer .logo {
+  width: 100px; /* Ancho del logo */
+  height: auto; /* Alto del logo */
+  margin-bottom: 20px; /* Espacio entre logo y texto */
+}
+
+.footer h5 {
+  font-weight: bold; /* Fuente negrita */
+  color: #fff; /* Color de texto */
+}
+
+.footer p {
+  color: #ccc; /* Color de texto */
+}
+
+.derechos-autor {
+  text-align: center; /* Alinear texto al centro */
+  margin-top: 20px; /* Espacio entre contenido y derechos de autor */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .navbar-brand{
+    margin-left: 5px;
+  }
+  .hero .row {
+    flex-direction: column; /* Apilar contenido en columna */
+  }
+  
+  .hero .col-lg-6 {
+    margin-bottom: 30px; /* Espacio entre elementos */
+  }
+}
